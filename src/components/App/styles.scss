@@ -1,0 +1,27 @@
+@use './../../styles/vars';
+
+.app {
+  max-width: 50rem;
+  margin: 0 auto;
+  min-height: 40vh;
+  padding: 1.5rem;
+
+  &__header {
+    margin-bottom: 3rem;
+    &-title{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    &-logo{
+      margin:0;
+      height:5rem;
+    }
+    span{
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin-top: 1.2rem;
+    }
+  }
+}
+
