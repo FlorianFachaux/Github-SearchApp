@@ -1,0 +1,11 @@
+@use 'reset';
+@use 'vars';
+
+body {
+  font-family: sans-serif;
+  background-color: rgba(77, 130, 255, 0.685);
+  padding-top: 1rem;
+}
+.app{
+  background-color: rgb(214, 237, 251);
+}
